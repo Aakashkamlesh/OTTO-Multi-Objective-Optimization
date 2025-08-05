@@ -6,11 +6,6 @@ Multi-objective Bayesian optimization framework for e-commerce recommendation sy
 ## Executive Summary
 This project built an intelligent optimization framework that helps online retailers like OTTO make better product recommendations to customers. Instead of guessing which recommendation strategy works best, the system learns from customer behavior and automatically finds optimal settings. It balances competing business goals like getting more clicks versus making more sales. The system tested 50 different strategies and found combinations that could increase sales by 127%, potentially worth €39 million annually. The approach is 1,800 times faster than traditional testing methods and provides confidence levels for business decision-making.
 
-# OTTO Multi-Objective Bayesian Optimization Framework
-
-## Executive Summary
-This project built an intelligent optimization framework that helps online retailers like OTTO make better product recommendations to customers. Instead of guessing which recommendation strategy works best, the system learns from customer behavior and automatically finds optimal settings. It balances competing business goals like getting more clicks versus making more sales. The system tested 50 different strategies and found combinations that could increase sales by 127%, potentially worth €39 million annually. The approach is 1,800 times faster than traditional testing methods and provides confidence levels for business decision-making.
-
 ## Key Results
 - **Conversion Improvement**: 127.8% (10.2% → 23.2%)
 - **Revenue Opportunity**: €39.1M annually

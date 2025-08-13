@@ -9,8 +9,9 @@ This project built an intelligent optimization framework that helps online retai
 ## Key Results
 - **Conversion Improvement**: 127.8% (10.2% → 23.2%)
 - **Revenue Opportunity**: €39.1M annually
-- **Efficiency Gain**: 99.9% reduction in experiments needed
-- **Confidence**: 95% confidence intervals for business decisions
+- **Optimization Efficiency**: 50 experiments vs 46,656 needed (99.9% reduction)
+- **Decision Intelligence**: 95% confidence intervals for business decisions
+- **Speed Advantage**: 1,800x faster than traditional A/B testing
 
 ## Technical Approach
 - Multi-objective Bayesian optimization with Gaussian Processes
@@ -34,3 +35,14 @@ This project built an intelligent optimization framework that helps online retai
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/01_business_problem.ipynb
+
+## Project Structure
+```bash
+📁 OTTO-Multi-Objective-Optimization/
+├── 📄 00_methodology.ipynb          # Research approach & academic positioning
+├── 📄 01_business_problem.ipynb     # €39M opportunity identification
+├── 📄 02_data_exploration.ipynb     # Real OTTO customer data analysis
+├── 📄 03_framework_design.ipynb     # 6 strategic parameter framework
+├── 📄 04_bayesian_optimization.ipynb # GP optimization implementation
+├── 📄 05_model_cards.ipynb          # Documentation & ethics
+└── 📄 requirements.txt              # Dependencies

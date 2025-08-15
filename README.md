@@ -1,7 +1,7 @@
 # OTTO Multi-Objective Bayesian Optimization Framework
 
 **Multi-objective Bayesian optimization framework for e-commerce recommendation systems**  
-*Imperial College London Professional Certificate capstone project demonstrating €15+ million revenue opportunity through intelligent hyperparameter tuning with uncertainty quantification.*
+*Imperial College London Professional Certificate capstone project demonstrating €2+ million revenue opportunity through intelligent hyperparameter tuning with uncertainty quantification.*
 
 [![Imperial College Business School](https://img.shields.io/badge/Imperial_College-Business_School-navy.svg)](https://www.imperial.ac.uk/business-school/)
 [![Machine Learning](https://img.shields.io/badge/ML-Multi--Objective_Optimization-blue.svg)]()
@@ -22,7 +22,7 @@ This project transforms e-commerce recommendation systems from intuition-based t
 ### **Business Impact**
 - **Conversion Improvement**: 32% increase (10.2% → 13.5%)
 - **Session Value Growth**: 31% increase (€5.14 → €6.76)
-- **Revenue Opportunity**: €15+ million annually validated
+- **Revenue Opportunity**: €2+ million annually validated
 - **Decision Intelligence**: 95% confidence intervals for executive decisions
 
 ### **Technical Breakthrough**
@@ -208,7 +208,7 @@ print(f"Annual Revenue Opportunity: €{revenue_opportunity:,.0f}")
 - **Production Readiness**: Deployment guidelines and monitoring framework
 
 ### **✅ Business Relevance**
-- **Revenue Quantification**: €15+ million opportunity with confidence intervals
+- **Revenue Quantification**: €2+ million opportunity with confidence intervals
 - **Stakeholder Communication**: Non-technical summaries for executives
 - **Strategic Insights**: Trade-off analysis for business decision-making
 - **Risk Assessment**: Uncertainty quantification for implementation planning
@@ -264,7 +264,7 @@ The optimization framework applies across sectors:
   title={Multi-Objective Bayesian Optimization for E-Commerce Recommendation Systems},
   author={Imperial College London Professional Certificate Program},
   year={2025},
-  note={Capstone project demonstrating €15M+ revenue optimization through intelligent hyperparameter tuning},
+  note={Capstone project demonstrating €2M+ revenue optimization through intelligent hyperparameter tuning},
   institution={Imperial College Business School}
 }
 ```

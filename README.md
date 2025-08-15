@@ -171,7 +171,7 @@ Revenue grows as conversion × session_value, so optimizing both metrics simulta
 
 ### **Strategic Trade-off Discovery**
 The optimization revealed critical business insights:
-- **High Immediate Focus**: €6.76 session value, €25.00 future value
+- **Optimized Performance**: €6.52 session value, €32.00 future value
 - **Balanced Approach**: Multiple Pareto-optimal strategies identified
 - **Temporal Constraints**: 88.2% of sessions optimizable within measurement window
 
@@ -182,10 +182,10 @@ The optimization revealed critical business insights:
 ```
 otto-multi-objective-optimization/
 ├── notebooks/                  # Complete analysis pipeline
-│   ├── 01_business_problem.ipynb    # Problem definition & €15M opportunity analysis
+│   ├── 01_business_problem.ipynb    # Problem definition & €2M conservative target
 │   ├── 02_data_exploration.ipynb    # OTTO dataset deep dive  
 │   ├── 03_framework_design.ipynb    # Multi-objective architecture
-│   ├── 04_optimization_results.ipynb # Bayesian optimization → €3.3M validated
+│   ├── 04_optimization_results.ipynb # Bayesian optimization → €2.79M validated
 │   └── 05_model_cards.ipynb         # Documentation & deployment
 ├── src/                        # Reusable Python modules
 │   ├── optimization/           # Bayesian optimization engine
@@ -274,7 +274,7 @@ print(f"Annual Revenue Opportunity: €{revenue_opportunity:,.0f}")
 
 ### **✅ Business Relevance**
 - **Revenue Quantification**: €2.79 million validated + €5.2 million stretch goal through dual-metric optimization
-- **Strategic Validation**: €15M 3-year projection supported by optimization results
+- **Strategic Validation**: Credible stretch goal supported by optimization results
 - **Stakeholder Communication**: Non-technical summaries for executives
 - **Strategic Insights**: Trade-off analysis for business decision-making
 - **Risk Assessment**: Uncertainty quantification for implementation planning
@@ -354,9 +354,9 @@ The optimization framework applies across sectors:
 
 ## 🎯 Project Journey Summary
 
-1. **Sections 1-2**: Identified €15M 3-year opportunity through market analysis
+1. **Sections 1-2**: Identified €2M conservative opportunity through market analysis
 2. **Section 3**: Designed multi-objective framework for 6 strategic trade-offs  
-3. **Section 4**: **Achieved €3.3M annual revenue validation** (32% conversion improvement)
-4. **Section 5**: Confirmed framework scalability supports €15M+ projection
+3. **Section 4**: **Achieved €2.79M annual revenue validation** (27.3% conversion improvement)
+4. **Section 5**: Confirmed framework scalability supports €5.2M stretch goal
 
 **Bottom Line**: We started with a €2M conservative target and successfully validated €2.79 million through sophisticated Bayesian optimization, with a credible €5.2 million stretch goal underpinned by dual-metric optimization (40% improvement in both conversion and session value).

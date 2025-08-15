@@ -9,6 +9,49 @@
 
 ---
 
+## 📊 Data Setup Required
+
+**Dataset**: OTTO Recommender Systems Competition Data  
+**Size**: ~1.5GB (full dataset)  
+**Source**: [Kaggle OTTO Dataset](https://www.kaggle.com/competitions/otto-recommender-system/data)
+
+### Quick Setup:
+```bash
+# Option 1: Using Kaggle CLI (Recommended)
+pip install kaggle
+kaggle competitions download -c otto-recommender-system
+# Extract train.jsonl to project root
+
+# Option 2: Manual Download
+# 1. Visit: https://www.kaggle.com/competitions/otto-recommender-system/data
+# 2. Download train.jsonl
+# 3. Place in project root folder
+```
+
+### File Structure:
+```
+OTTO-Multi-Objective-Optimization/
+├── train.jsonl  ← Place downloaded data here
+├── 00_methodology.F.ipynb
+├── 01_business_problem.F.ipynb
+├── 02_Data_exploration.F.ipynb
+├── 03_framework_design.F.ipynb
+├── 04_Bayesian_Optimisation.F.ipynb
+├── 05_model_cards.F.ipynb
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+### Running the Analysis:
+1. **Download dataset** (see instructions above)
+2. **Install dependencies**: `pip install -r requirements.txt`
+3. **Run notebooks sequentially**: 00 → 01 → 02 → 03 → 04 → 05
+
+**Note**: Dataset not included in repository due to size constraints (1.5GB). Code analyzes 100K customer sample from full dataset.
+
+---
+
 ## 🎯 Executive Summary
 
 This project demonstrates advanced multi-objective Bayesian optimization methodology for e-commerce recommendation systems using real OTTO customer data (100,000 customers, 5.2M interactions) as the foundation for realistic business simulation modeling. The framework shows how sophisticated mathematical optimization can systematically navigate complex parameter spaces to balance competing business objectives.
@@ -113,6 +156,31 @@ def demonstrate_recommendation_optimization():
     
     # Expected Hypervolume Improvement acquisition
     return bayesian_optimize_simulation(objectives, optimization_space)
+```
+
+---
+
+## 🛠️ Dependencies & Requirements
+
+### **System Requirements:**
+- Python 3.8+
+- 8GB+ RAM (for processing 100K customer dataset)
+- ~2GB free disk space (for dataset)
+
+### **Key Dependencies:**
+```python
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scipy>=1.9.0
+jupyter>=1.0.0
+```
+
+**Install all dependencies:**
+```bash
+pip install -r requirements.txt
 ```
 
 ---
@@ -241,6 +309,35 @@ The optimization framework methodology applies across sectors:
 - Sophisticated ML methodology applied to practical business optimization problems
 - Framework designed for scalability and production validation pathway
 - Academic rigor combined with business pragmatism and honest assessment of limitations
+
+---
+
+## 📋 Citation & Academic Use
+
+```bibtex
+@misc{otto_multiobj_optimization_2025,
+  title={Multi-Objective Bayesian Optimization for E-Commerce Recommendation Systems},
+  author={Imperial College London Professional Certificate Program},
+  year={2025},
+  note={Capstone project demonstrating €2+ million revenue opportunity through 
+        sophisticated multi-objective optimization methodology with real OTTO data foundation},
+  institution={Imperial College Business School}
+}
+```
+
+---
+
+## 📧 Contact & Troubleshooting
+
+**Data Download Issues?**
+- Ensure Kaggle CLI is properly configured with API credentials
+- Alternative: Manual download from Kaggle competition page
+- Contact: Kaggle competition support for dataset access issues
+
+**Code Execution Issues?**
+- Verify all dependencies installed: `pip install -r requirements.txt`
+- Ensure `train.jsonl` is in project root directory
+- Check Python version compatibility (3.8+)
 
 ---
 

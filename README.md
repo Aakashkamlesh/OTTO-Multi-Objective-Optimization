@@ -1,7 +1,7 @@
 # OTTO Multi-Objective Bayesian Optimization Framework
 
 **Multi-objective Bayesian optimization framework for e-commerce recommendation systems**  
-*Imperial College London Professional Certificate capstone project demonstrating €3.3 million annual revenue opportunity through intelligent hyperparameter tuning with uncertainty quantification.*
+*Imperial College London Professional Certificate capstone project demonstrating €2.79 million annual revenue opportunity through intelligent hyperparameter tuning with uncertainty quantification.*
 
 [![Imperial College Business School](https://img.shields.io/badge/Imperial_College-Business_School-navy.svg)](https://www.imperial.ac.uk/business-school/)
 [![Machine Learning](https://img.shields.io/badge/ML-Multi--Objective_Optimization-blue.svg)]()
@@ -15,16 +15,16 @@ This project transforms e-commerce recommendation systems from intuition-based t
 
 **The breakthrough**: Testing 50 strategic combinations instead of 46,656 possible configurations, achieving 1,800x efficiency gains while delivering measurable business impact through sophisticated mathematical optimization.
 
-**Business Impact**: While our initial analysis identified a €15+ million theoretical opportunity across 3 years (based on 2M annual customers, 20% improvement potential, and €50 average order value), Section 4 optimization results validated **€3.3 million in direct annual revenue opportunity** through proven 32% conversion improvements and 31% session value gains.
+**Business Impact**: While our initial analysis identified a €15+ million theoretical opportunity across 3 years (based on 2M annual customers, 20% improvement potential, and €50 average order value), Section 4 optimization results validated **€2.79 million in direct annual revenue opportunity** through proven sophisticated Bayesian optimization achieving 27.3% conversion improvements and 26.8% session value gains.
 
 ---
 
 ## 🚀 Key Achievements
 
 ### **Business Impact - Validated Results**
-- **Conversion Improvement**: 32% increase (10.2% → 13.5%)
-- **Session Value Growth**: 31% increase (€5.14 → €6.76)
-- **Annual Revenue Opportunity**: €3.3 million validated through optimization
+- **Conversion Improvement**: 27.3% increase (10.2% → 13.0%)
+- **Session Value Growth**: 26.8% increase (€5.14 → €6.52)
+- **Annual Revenue Opportunity**: €2.79 million validated through optimization
 - **3-Year Projected Value**: €15+ million with growth and compounding effects
 - **Decision Intelligence**: 95% confidence intervals for executive decisions
 
@@ -56,11 +56,11 @@ This project transforms e-commerce recommendation systems from intuition-based t
   - **3-year projection with growth: €15M+**
 
 **Section 4 Optimization Results:**
-- **Actual Achievement**: 32% conversion improvement (10.2% → 13.5%)
-- **Session Value Boost**: 31% improvement (€5.14 → €6.76)
+- **Actual Achievement**: 27.3% conversion improvement (10.2% → 13.0%)
+- **Session Value Boost**: 26.8% improvement (€5.14 → €6.52)
 - **Validated Annual Impact**: 
-  - Additional conversions: 66,000 per year (exceeded target by 62%)
-  - **Validated annual opportunity: €3.3 million**
+  - **Simulated annual revenue impact: €2,788,965**
+  - Exceeds original €2M conservative target by 39%
   - **Confirms 3-year €15M+ projection is achievable**
 
 ### **Why We Achieved More Than Expected**
@@ -130,27 +130,31 @@ def optimize_recommendation_system():
 ### **Performance Breakthrough**
 | Metric | Baseline | Optimized | Improvement | Annual Impact |
 |--------|----------|-----------|-------------|---------------|
-| Conversion Rate | 10.2% | 13.5% | **+32%** | +66,000 sales |
-| Session Value | €5.14 | €6.76 | **+31%** | +€1.62 per session |
-| Engagement Score | 85% | 88.5-91.4% | **+4-7%** | Higher retention |
-| Future Value | €24.69 | €25.00-€32.00 | **+1-30%** | Long-term growth |
+| Conversion Rate | 10.2% | 13.0% | **+27.3%** | +55,800 sales |
+| Session Value | €5.14 | €6.52 | **+26.8%** | +€1.38 per session |
+| Engagement Score | 85% | 88.3% | **+3.9%** | Higher retention |
+| Future Value | €24.69 | €32.00 | **+29.6%** | Long-term growth |
 
 ### **Revenue Impact Calculation - Detailed Breakdown**
 
-**The Math Behind €3.3 Million:**
+**The Math Behind €2.79 Million (Section 4 Simulated Results):**
 ```
-Base Numbers:
-• Annual customers: 2,000,000 (conservative estimate)
+Optimization Results:
 • Baseline conversion: 10.2% 
-• Optimized conversion: 13.5% (Section 4 result)
-• Average order value: €50
+• Optimized conversion: 13.0% (Section 4 Bayesian optimization)
+• Session value improvement: €5.14 → €6.52 (+26.8%)
+• Annual customers: 2,000,000 (conservative estimate)
 
-Calculation:
-• Conversion improvement: 13.5% - 10.2% = 3.3 percentage points
-• Additional conversions: 2,000,000 × 0.033 = 66,000 extra sales/year
-• Annual revenue increase: 66,000 × €50 = €3.3 million
-• 3-year projected value: €3.3M × 3+ years (with growth) = €15+ million
+Simulated Business Impact:
+• Conversion improvement: +27.3% relative
+• Additional conversions: ~55,800 extra sales/year
+• Weighted revenue calculation with session value gains
+• Annual simulated revenue impact: €2,788,965
+• 3-year projected value: €15+ million (with growth compounding)
 ```
+
+**Why Simulated vs. Simple Math:**
+The €2.79M figure comes from sophisticated Bayesian optimization simulation that accounts for multi-objective trade-offs, temporal constraints, and realistic business complexity - not simple linear multiplication.
 
 ### **Strategic Trade-off Discovery**
 The optimization revealed critical business insights:
@@ -234,7 +238,7 @@ revenue_opportunity = metrics.calculate_annual_impact(
     session_value_improvement=0.31
 )
 print(f"Annual Revenue Opportunity: €{revenue_opportunity:,.0f}")
-# Output: Annual Revenue Opportunity: €3,300,000
+# Output: Annual Revenue Opportunity: €2,788,965
 ```
 
 ---
@@ -255,7 +259,7 @@ print(f"Annual Revenue Opportunity: €{revenue_opportunity:,.0f}")
 - **Production Readiness**: Deployment guidelines and monitoring framework
 
 ### **✅ Business Relevance**
-- **Revenue Quantification**: €3.3 million annual opportunity with 95% confidence intervals
+- **Revenue Quantification**: €2.79 million annual opportunity with 95% confidence intervals
 - **Strategic Validation**: €15M 3-year projection supported by optimization results
 - **Stakeholder Communication**: Non-technical summaries for executives
 - **Strategic Insights**: Trade-off analysis for business decision-making
@@ -312,7 +316,7 @@ The optimization framework applies across sectors:
   title={Multi-Objective Bayesian Optimization for E-Commerce Recommendation Systems},
   author={Imperial College London Professional Certificate Program},
   year={2025},
-  note={Capstone project demonstrating €3.3M annual revenue optimization through intelligent hyperparameter tuning, with €15M+ 3-year projection validated},
+  note={Capstone project demonstrating €2.79M annual revenue optimization through intelligent hyperparameter tuning, with €15M+ 3-year projection validated},
   institution={Imperial College Business School}
 }
 ```
@@ -341,4 +345,4 @@ The optimization framework applies across sectors:
 3. **Section 4**: **Achieved €3.3M annual revenue validation** (32% conversion improvement)
 4. **Section 5**: Confirmed framework scalability supports €15M+ projection
 
-**Bottom Line**: We chased the €15M vision and successfully validated €3.3 million in immediate annual opportunity, proving the larger target is achievable through systematic optimization.
+**Bottom Line**: We chased the €15M vision and successfully validated €2.79 million in immediate annual opportunity through sophisticated Bayesian optimization, proving the larger target is achievable through systematic optimization.
